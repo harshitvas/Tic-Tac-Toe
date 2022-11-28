@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    min-height: 100%;
+}
+
+.heading{
+    font-size: 4rem;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    justify-content: center;
+}
+
+.symbol{
+    font-size: 100px;
+}
+
+.playerTurn{
+    font-size: 2rem;
+}
+
+.box{
+    background-color: lightcoral;
+    border: 3px solid black;
+}
+
+.reset{
+    font-size: 1.25rem;
+    width: 10%;
+    box-shadow: 2px 2px 4px black;
+}
+
+.reset:hover{
+    background-color: red;
+    color: white;
+}

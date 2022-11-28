@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="board">
+        <h1 class="heading">Tic Tac Toe</h1>
+        <div class="game-board">
+            <button class="box symbol" id="1" onclick="play(this.id)"></button>
+            <button class="box symbol" id="2" onclick="play(this.id)"></button>
+            <button class="box symbol" id="3" onclick="play(this.id)"></button>
+            <button class="box symbol" id="4" onclick="play(this.id)"></button>
+            <button class="box symbol" id="5" onclick="play(this.id)"></button>
+            <button class="box symbol" id="6" onclick="play(this.id)"></button>
+            <button class="box symbol" id="7" onclick="play(this.id)"></button>
+            <button class="box symbol" id="8" onclick="play(this.id)"></button>
+            <button class="box symbol" id="9" onclick="play(this.id)"></button>
+        </div>
+        <h2 class="playerTurn" id="message">Player 1 turn</h2>
+    </div>
+    <button class="reset" id="reset" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
